@@ -42,11 +42,7 @@ font-family: 'Roboto', sans-serif;400 700
 */
 
 
-
-
 body {
-    margin: auto;
-
     font-family:'Open Sans', sans-serif;
     font-weight: 300;
     color: #343a40;
@@ -61,25 +57,23 @@ body {
     background-color: #17a2b8;
 }
 
-
-
 header {
-    background-image: url(lago.jpg);
+    background-image: url(lagolleulleu.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding: 25%;
     height: 800px;
     color: #ffffff;
-
 }
+
+
 
 #sobremi {
     font-family: 'Open-Sans' sans-serif;
     color: #373A3C;
     font-weight: 300;
 }
-
 
 
 
@@ -93,11 +87,12 @@ padding: 400px 0px 0px 0px;
     padding: 200px 0px 0px 0px;
     }
     
+
+    
 h1 {
 text-align: center;
 font-family: 'Roboto', sans-serif;
 font-weight: 400;
-font-size: 50px;
 }
 
 h2 {
@@ -112,7 +107,7 @@ h3 {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     color: darkslategray;
-    font-weight: 600;
+    font-weight: 300;
     
 }
 p {
@@ -125,4 +120,8 @@ font-weight: 400;
 #experiencia img {
     height: 200px;
     width: 100%;
+}
+
+#suscribetemodal {
+    color: #17a2b8;
 }
