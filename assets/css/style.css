@@ -25,14 +25,23 @@ encuentran en el archivo Assets - Prueba.zip).
 ● Una sección footer con links a tus redes sociales.
 
 git
-
-
 git add --all
 git commit -m "subida de desafios"
 git push -u portafolio main
 
+div{
+    border:1px solid;
+}
+
+
+font-family: 'Open Sans', sans-serif; 400 600 
+font-family: 'Oswald', sans-serif;300 400 500
+font-family: 'Raleway', sans-serif; 300 400 600
+font-family: 'Roboto', sans-serif;400 700
 
 */
+
+
 
 
 body {
@@ -40,7 +49,7 @@ body {
 
     font-family:'Open Sans', sans-serif;
     font-weight: 300;
-    color: #ffffff;
+    color: #343a40;
         }
 
 #iconoletram {
@@ -55,11 +64,13 @@ body {
 
 
 header {
-    background-image: url(bg_hero.png);
+    background-image: url(lago.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding: 25%;
+    height: 800px;
+    color: #ffffff;
 
 }
 
@@ -67,9 +78,51 @@ header {
     font-family: 'Open-Sans' sans-serif;
     color: #373A3C;
     font-weight: 300;
+}
+
+
+
+
+#nombremovil {
+margin-top: 10%;
+padding: 400px 0px 0px 0px;
+}
+
+#nombrepc {
+    margin-top: 10%;
+    padding: 200px 0px 0px 0px;
+    }
+    
+h1 {
+text-align: center;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 50px;
+}
+
+h2 {
+text-align: center !important;
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+font-size: 50px;
 
 }
 
-div{
-    border:1px solid;
+h3 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: darkslategray;
+    font-weight: 600;
+    
+}
+p {
+text-align: center;
+font-family: 'Raleway', sans-serif;
+color: darkslategray;
+font-weight: 400;
+}
+
+#experiencia img {
+    height: 200px;
+    width: 100%;
 }
