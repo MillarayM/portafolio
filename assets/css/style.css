@@ -37,6 +37,9 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Sansita Swashed', cursive;
 400 700
 */
+html {
+    scroll-behavior: smooth;
+}
 
 
 body {
@@ -53,12 +56,9 @@ background-size: cover;
 color: #ffffff;
 text-shadow: 2px 3px 3px #707070;
 padding: 6.125rem 6.125rem;
-        
-            /*padding: 50px 50px 250px 50px;
-            text-shadow: 0.125em 0.25em 0.125em #707070;
-            padding: 3.125rem 3.125rem 6.25rem 3.125rem;
-            */
-            }
+}
+
+
 
 /* clases usos general */
 
@@ -113,7 +113,7 @@ hr {
 }
 
 /* mi experiencia movil type form*/
-#contactomovil {
+#contactopc {
     text-align: center;
 }
 
@@ -138,3 +138,8 @@ footer {
 }
 
 
+.letra {
+    font-family:'Sansita Swashed', cursive;
+    color: bg-dark;
+    font-weight: 400;
+}
