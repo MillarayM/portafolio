@@ -33,95 +33,108 @@ div{
     border:1px solid;
 }
 
-
-font-family: 'Open Sans', sans-serif; 400 600 
-font-family: 'Oswald', sans-serif;300 400 500
-font-family: 'Raleway', sans-serif; 300 400 600
-font-family: 'Roboto', sans-serif;400 700
-
+font-family: 'Raleway', sans-serif;
+font-family: 'Sansita Swashed', cursive;
+400 700
 */
 
 
 body {
-    font-family:'Open Sans', sans-serif;
-    font-weight: 300;
+    font-family:'Raleway', sans-serif;
+    font-weight: 400;
     color: #343a40;
         }
 
-#iconoletram {
-    font-size: 50px;
-    font-weight: 600;
+.hero-section {
+text-align: center;
+background-image: url(lago.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+color: #ffffff;
+text-shadow: 2px 3px 3px #707070;
+padding: 6.125rem 6.125rem;
+        
+            /*padding: 50px 50px 250px 50px;
+            text-shadow: 0.125em 0.25em 0.125em #707070;
+            padding: 3.125rem 3.125rem 6.25rem 3.125rem;
+            */
+            }
+
+/* clases usos general */
+
+
+hr {
+    width: 35%;
+    height: 8px;
 }
 
+.tcentrado {
+    text-align: center;
+    font-weight: 700;
+}
+
+
+
+/* navbar */
 .navbar {
     background-color: #17a2b8;
 }
+#iconoletram {
+    font-size: 50px;
+    font-weight: 600;
+    font-family:'Sansita Swashed', cursive;
+}
 
-header {
-    background-image: url(lagolleulleu.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 25%;
-    height: 800px;
+/* header */
+
+#nombreheader {
+    padding-top: 400px;
+}
+.yosoy {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+.millaray {
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+/* botones */
+
+.botoncolor {
+    background-color: #088A68;
+}
+
+/* mis ultimos trabajos */
+
+.colorfondo {
+    background-color: #FF8000;
+}
+
+/* mi experiencia movil type form*/
+#contactomovil {
+    text-align: center;
+}
+
+/* footer */
+footer {
+    text-align: center;
+}
+
+.izquierda {
+    text-align: right;
+}
+
+
+.oscuro {
+    background: #000f08;
     color: #ffffff;
 }
-
-
-
-#sobremi {
-    font-family: 'Open-Sans' sans-serif;
-    color: #373A3C;
-    font-weight: 300;
+.oscuro a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 50px;
 }
 
 
-
-#nombremovil {
-margin-top: 10%;
-padding: 400px 0px 0px 0px;
-}
-
-#nombrepc {
-    margin-top: 10%;
-    padding: 200px 0px 0px 0px;
-    }
-    
-
-    
-h1 {
-text-align: center;
-font-family: 'Roboto', sans-serif;
-font-weight: 400;
-}
-
-h2 {
-text-align: center !important;
-font-family: 'Roboto', sans-serif;
-font-weight: 700;
-font-size: 50px;
-
-}
-
-h3 {
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    color: darkslategray;
-    font-weight: 300;
-    
-}
-p {
-text-align: center;
-font-family: 'Raleway', sans-serif;
-color: darkslategray;
-font-weight: 400;
-}
-
-#experiencia img {
-    height: 200px;
-    width: 100%;
-}
-
-#suscribetemodal {
-    color: #17a2b8;
-}
